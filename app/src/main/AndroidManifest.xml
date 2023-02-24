@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DevlandApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".GridViewActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".UsuariosSeleccionadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetallesUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarUsuarioActivity"
+            android:exported="false"
+            android:label="Registrar usuario">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EditarPerfil"
+            android:exported="true"
+            android:label="Editar perfil">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="true"
+            android:label="Perfil">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetallesProyectoOtraPersonaActivity"
+            android:exported="true"
+            android:label="Detalles de proyecto">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FeedActivity"
+            android:exported="true"
+            android:label="Feed">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.DevlandApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ProyectosInteresadosActivity"
+            android:exported="true"
+            android:label="Proyectos interesados">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DrawerBaseActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MisProyectosActivity"
+            android:exported="true"
+            android:label="Mis proyectos">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetallesProyectoPropioActivity"
+            android:exported="true"
+            android:label="Detalles de proyecto">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CrearProyectoActivity"
+            android:exported="true"
+            android:label="Crear proyecto">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UsuariosInteresadosActivity"
+            android:exported="true"
+            android:label="Usuarios interesados">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NotificacionesActivity"
+            android:exported="true"
+            android:label="Notificaciones">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
